@@ -25,8 +25,8 @@ public class Assignment2 {
 
         if(diamondDimension % 2 != 0) {
             // Generate top half of diamond
-            for(int numReadableChars = 1, numSpaces = ((diamondDimension - 1) / 2);
-                numReadableChars <= diamondDimension; numReadableChars += 2, numSpaces--) {
+            for(int numAsterisks = 1, numSpaces = ((diamondDimension - 1) / 2);
+                numAsterisks <= diamondDimension; numAsterisks += 2, numSpaces--) {
 
                 // Print spaces before first character
                 for(int i = 0; i < numSpaces; i++) {
@@ -34,7 +34,7 @@ public class Assignment2 {
                 }
 
                 // Print readable characters
-                for(int j = 0; j < numReadableChars; j++) {
+                for(int j = 0; j < numAsterisks; j++) {
                     System.out.print("*");
                 }
 
@@ -43,8 +43,8 @@ public class Assignment2 {
             }
 
             // Generate bottom half of diamond
-            for(int numReadableChars = (diamondDimension - 2), numSpaces = 1;
-                numReadableChars > 0; numReadableChars -= 2, numSpaces++) {
+            for(int numAsterisks = (diamondDimension - 2), numSpaces = 1;
+                numAsterisks > 0; numAsterisks -= 2, numSpaces++) {
 
                 // Print spaces before first character
                 for(int i = 0; i < numSpaces; i++) {
@@ -52,7 +52,7 @@ public class Assignment2 {
                 }
 
                 // Print readable characters
-                for(int j = 0; j < numReadableChars; j++) {
+                for(int j = 0; j < numAsterisks; j++) {
                     System.out.print("*");
                 }
 
@@ -61,8 +61,8 @@ public class Assignment2 {
             }
         } else {
             // Generate top half of diamond
-            for(int numReadableChars = 1, numSpaces = (diamondDimension - 1);
-                numReadableChars <= diamondDimension; numReadableChars++, numSpaces--) {
+            for(int numAsterisks = 1, numSpaces = (diamondDimension - 1);
+                numAsterisks <= diamondDimension; numAsterisks++, numSpaces--) {
 
                 // Print spaces before first character
                 for(int i = 0; i < numSpaces; i++) {
@@ -70,7 +70,7 @@ public class Assignment2 {
                 }
 
                 // Print readable characters
-                for(int j = 0; j < numReadableChars; j++) {
+                for(int j = 0; j < numAsterisks; j++) {
                     System.out.print("* ");
                 }
 
@@ -79,8 +79,8 @@ public class Assignment2 {
             }
 
             // Generate bottom half of diamond
-            for(int numReadableChars = (diamondDimension - 1), numSpaces = 1;
-                numReadableChars > 0; numReadableChars--, numSpaces++) {
+            for(int numAsterisks = (diamondDimension - 1), numSpaces = 1;
+                numAsterisks > 0; numAsterisks--, numSpaces++) {
 
                 // Print spaces before first character
                 for(int i = 0; i < numSpaces; i++) {
@@ -88,7 +88,7 @@ public class Assignment2 {
                 }
 
                 // Print readable characters
-                for(int j = 0; j < numReadableChars; j++) {
+                for(int j = 0; j < numAsterisks; j++) {
                     System.out.print("* ");
                 }
 
