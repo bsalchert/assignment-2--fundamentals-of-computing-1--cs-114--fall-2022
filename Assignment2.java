@@ -59,7 +59,7 @@ public class Assignment2 {
                 // Insert spaces before first character
                 for(int j = 0; j < numSpaces; j++) {
                     // Check first row special case
-                    if (i == 0 && j == 0) {
+                    if(i == 0 && j == 0) {
                         System.out.print(" ");
                     } else {
                         System.out.print("  ");
@@ -68,7 +68,12 @@ public class Assignment2 {
 
                 // Insert asterisks
                 for(int k = 0; k < numAsterisks; k++) {
-                    System.out.print("* ");
+                    // Check last row special case
+                    if(i == diamondDimension) {
+                        System.out.print(" *");
+                    } else {
+                        System.out.print("* ");
+                    }
                 }
 
                 // Alter algorithm variables accordingly
