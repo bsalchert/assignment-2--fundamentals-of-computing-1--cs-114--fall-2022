@@ -27,6 +27,7 @@ public class Assignment2 {
         int numAsterisks = 1;
         int numSpaces = (diamondDimension / 2);
 
+        // Analyze user input
         if(diamondDimension % 2 != 0) {
             // Generate odd diamond
             for(int i = 0; i < diamondDimension; i++) {
