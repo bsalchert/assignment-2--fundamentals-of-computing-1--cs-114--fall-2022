@@ -60,6 +60,11 @@ public class Assignment2 {
                 for(int j = 0; j < numSpaces; j++) {
                     System.out.print("  ");
                 }
+
+                // Insert asterisks
+                for(int k = 0; k < numAsterisks; k++) {
+                    System.out.print("* ");
+                }
             }
         }
     }
