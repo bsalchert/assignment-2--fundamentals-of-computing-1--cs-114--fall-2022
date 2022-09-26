@@ -39,6 +39,15 @@ public class Assignment2 {
                 for(int k = 0; k < numAsterisks; k++) {
                     System.out.print("*");
                 }
+
+                // Alter algorithm variables accordingly
+                if(i < (diamondDimension / 2)) {
+                    numAsterisks += 2;
+                    numSpaces--;
+                } else {
+                    numAsterisks -= 2;
+                    numSpaces++;
+                }
             }
         } else {
             
