@@ -30,7 +30,10 @@ public class Assignment2 {
         if(diamondDimension % 2 != 0) {
             // Generate odd diamond
             for(int i = 0; i < diamondDimension; i++) {
-                
+                // Insert spaces before first character
+                for(int j = 0; j < numSpaces; j++) {
+
+                }
             }
         } else {
             
