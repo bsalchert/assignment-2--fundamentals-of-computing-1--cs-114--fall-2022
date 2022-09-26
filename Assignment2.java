@@ -76,8 +76,12 @@ public class Assignment2 {
                         numSpaces--;
                     }
                 } else {
-                    numAsterisks -= 2;
-                    numSpaces++;
+                    if(i == (diamondDimension - 1)) {
+                        numAsterisks--;
+                    } else {
+                        numAsterisks -= 2;
+                        numSpaces++;
+                    }
                 }
 
                 // Go to next line
