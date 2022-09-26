@@ -74,6 +74,9 @@ public class Assignment2 {
                     numAsterisks -= 2;
                     numSpaces++;
                 }
+
+                // Go to next line
+                System.out.println();
             }
         }
     }
