@@ -56,7 +56,10 @@ public class Assignment2 {
         } else {
             // Generate even diamond
             for(int i = 0; i <= diamondDimension; i++) {
-
+                // Insert spaces before first character
+                for(int j = 0; j < numSpaces; j++) {
+                    System.out.print("  ");
+                }
             }
         }
     }
