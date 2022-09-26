@@ -68,8 +68,13 @@ public class Assignment2 {
 
                 // Alter algorithm variables accordingly
                 if (i < (diamondDimension / 2)) {
-                    numAsterisks += 2;
-                    numSpaces--;
+                    if(i == 0) {
+                        numAsterisks++;
+                        numSpaces--;
+                    } else {
+                        numAsterisks += 2;
+                        numSpaces--;
+                    }
                 } else {
                     numAsterisks -= 2;
                     numSpaces++;
