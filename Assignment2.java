@@ -54,8 +54,9 @@ public class Assignment2 {
                 System.out.println();
             }
         } else {
+            // Generate even diamond
             for(int i = 0; i <= diamondDimension; i++) {
-                
+
             }
         }
     }
