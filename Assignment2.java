@@ -49,6 +49,7 @@ public class Assignment2 {
                     numSpaces++;
                 }
 
+                // Go to next line
                 System.out.println();
             }
         } else {
