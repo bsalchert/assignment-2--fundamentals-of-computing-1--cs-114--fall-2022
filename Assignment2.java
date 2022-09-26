@@ -18,7 +18,9 @@ public class Assignment2 {
 
         // Check exit program
         if(diamondDimension == 0) {
+
             System.exit(0);
+
         }
 
         if(diamondDimension % 2 != 0) {
