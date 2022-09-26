@@ -28,7 +28,10 @@ public class Assignment2 {
         int numSpaces = (diamondDimension / 2);
 
         if(diamondDimension % 2 != 0) {
-            
+            // Generate odd diamond
+            for(int i = 0; i < diamondDimension; i++) {
+                
+            }
         } else {
             
         }
