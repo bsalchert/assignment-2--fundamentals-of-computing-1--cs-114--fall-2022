@@ -25,6 +25,7 @@ public class Assignment2 {
 
         // Initialize algorithm variables
         int numAsterisks = 1;
+        int numSpaces = (diamondDimension / 2);
 
         if(diamondDimension % 2 != 0) {
             
