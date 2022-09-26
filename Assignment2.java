@@ -54,7 +54,9 @@ public class Assignment2 {
                 System.out.println();
             }
         } else {
-            
+            for(int i = 0; i <= diamondDimension; i++) {
+                
+            }
         }
     }
 }
