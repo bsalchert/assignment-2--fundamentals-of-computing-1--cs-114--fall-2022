@@ -48,6 +48,8 @@ public class Assignment2 {
                     numAsterisks -= 2;
                     numSpaces++;
                 }
+
+                System.out.println();
             }
         } else {
             
