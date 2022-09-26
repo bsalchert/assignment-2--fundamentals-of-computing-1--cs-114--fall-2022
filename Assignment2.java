@@ -58,7 +58,12 @@ public class Assignment2 {
             for(int i = 0; i <= diamondDimension; i++) {
                 // Insert spaces before first character
                 for(int j = 0; j < numSpaces; j++) {
-                    System.out.print("  ");
+                    // Check first row special case
+                    if (i == 0 && j == 0) {
+                        System.out.print(" ");
+                    } else {
+                        System.out.print("  ");
+                    }
                 }
 
                 // Insert asterisks
