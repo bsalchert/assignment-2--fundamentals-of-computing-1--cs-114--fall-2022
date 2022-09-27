@@ -31,14 +31,15 @@ public class Assignment2 {
         if(diamondDimension % 2 != 0) {
             // Generate odd diamond
             for(int i = 0; i < diamondDimension; i++) {
-                // Insert spaces before first character
-                for(int j = 0; j < numSpaces; j++) {
-                    System.out.print(" ");
-                }
-
-                // Insert asterisks
-                for(int k = 0; k < numAsterisks; k++) {
-                    System.out.print("*");
+                // Print line
+                for(int j = 0; j < (numSpaces + numAsterisks); j++) {
+                    if(j < numSpaces) {
+                        // Insert spaces before first character
+                        System.out.print(" ");
+                    } else {
+                        // Insert Asterisks
+                        System.out.print("*");
+                    }
                 }
 
                 // Alter algorithm variables accordingly
