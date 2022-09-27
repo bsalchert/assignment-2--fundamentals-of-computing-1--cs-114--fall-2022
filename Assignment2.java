@@ -37,7 +37,7 @@ public class Assignment2 {
                         // Insert spaces before first character
                         System.out.print(" ");
                     } else {
-                        // Insert Asterisks
+                        // Insert asterisks
                         System.out.print("*");
                     }
                 }
@@ -57,23 +57,24 @@ public class Assignment2 {
         } else {
             // Generate even diamond
             for(int i = 0; i <= diamondDimension; i++) {
-                // Insert spaces before first character
-                for(int j = 0; j < numSpaces; j++) {
+                // Print line
+                for(int j = 0; j < (numSpaces + numAsterisks); j++) {
+                    // Insert spaces
                     // Check first row special case
-                    if(i == 0 && j == 0) {
-                        System.out.print(" ");
+                    if(j < numSpaces) {
+                        if(i == 0 && j == 0) {
+                            System.out.print(" ");
+                        } else {
+                            System.out.print("  ");
+                        }
                     } else {
-                        System.out.print("  ");
-                    }
-                }
-
-                // Insert asterisks
-                for(int k = 0; k < numAsterisks; k++) {
-                    // Check last row special case
-                    if(i == diamondDimension) {
-                        System.out.print(" *");
-                    } else {
-                        System.out.print("* ");
+                        // Insert asterisks
+                        // Check last row special case
+                        if(i == diamondDimension) {
+                            System.out.print(" *");
+                        } else {
+                            System.out.print("* ");
+                        }
                     }
                 }
 
