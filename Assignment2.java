@@ -5,6 +5,8 @@ public class Assignment2 {
         // Declare Variables
         Scanner input = new Scanner(System.in);
         int diamondDimension;
+        int numAsterisks;
+        int numSpaces;
 
         // Ask user for input
         System.out.print("Please enter a positive integer (0 to exit): ");
@@ -24,8 +26,8 @@ public class Assignment2 {
         }
 
         // Initialize algorithm variables
-        int numAsterisks = 1;
-        int numSpaces = (diamondDimension / 2);
+        numAsterisks = 1;
+        numSpaces = (diamondDimension / 2);
 
         // Analyze user input
         if(diamondDimension % 2 != 0) {
