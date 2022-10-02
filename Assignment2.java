@@ -20,9 +20,7 @@ public class Assignment2 {
 
         // Check exit program
         if(diamondDimension == 0) {
-
             System.exit(0);
-
         }
 
         // Initialize algorithm variables
@@ -56,6 +54,7 @@ public class Assignment2 {
                 // Go to next line
                 System.out.println();
             }
+
         } else {
             // Generate even diamond
             for(int i = 0; i <= diamondDimension; i++) {
